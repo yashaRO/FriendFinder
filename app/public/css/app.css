@@ -1,0 +1,16 @@
+body {
+  background-color: moccasin
+}
+.surveyradio {
+  text-align: justify;
+  position:relative;
+}
+.surveyradio:after {
+  display:inline-block;
+  width:100%;
+  content:'';
+}
+input[type='radio'] {
+  width: 2em;
+  height: 2em;
+}

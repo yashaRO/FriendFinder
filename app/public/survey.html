@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<HTML>
+ 	<HEAD>
+    <TITLE></TITLE>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' type='text/css' href='css/app.css'>
+	</HEAD>
+  <BODY>
+    <div class='container'>
+      <div class='jumbotron'></div>
+      <div class='col-lg-2 col-md-2 col-sm-2'></div>
+        
+      <div class='col-lg-8 col-md-8 col-sm-8'>
+         
+        <form method='POST' action='/api/friends'>
+        
+        	<div class="input-group">
+  					<span class="input-group-addon" id="basic-addon1">Full Name</span>
+  					<input type="text" class="form-control" name='name' placeholder="Name" aria-describedby="basic-addon1" required>
+					</div>
+       	
+       		<br>
+        	
+         	<div class="input-group">
+  					<span class="input-group-addon" id="basic-addon1">Photo URL</span>
+  					<input type="url" class="form-control" name='photo' placeholder="URL" aria-describedby="basic-addon1" required>
+					</div>
+         	
+         	<br>
+         	
+          <div class='surveyradio'>
+         		<div class='questions' id='q1'>How godly should they be?</div>
+         		<input type="radio" name="question1" value=1 required>
+         		<input type="radio" name="question1" value=2>
+         		<input type="radio" name="question1" value=3>
+         		<input type="radio" name="question1" value=4>
+         		<input type="radio" name="question1" value=5>
+          </div>
+          <div class='surveyradio'>
+           	<div class='questions' id=''>They should care about human matters</div><br>
+           	<input type="radio" name="question2" value=1 required>
+           	<input type="radio" name="question2" value=2>
+           	<input type="radio" name="question2" value=3>
+           	<input type="radio" name="question2" value=4>
+           	<input type="radio" name="question2" value=5>
+          </div>
+          <div class='surveyradio'>
+           	<div class='questions' id=''>You have a sense of honor</div><br>
+           	<input type="radio" name="question3" value=1 required>
+           	<input type="radio" name="question3" value=2>
+           	<input type="radio" name="question3" value=3>
+           	<input type="radio" name="question3" value=4>
+           	<input type="radio" name="question3" value=5>
+          </div>
+          <div class='surveyradio'>	
+           	<div class='questions' id=''>You believe in animal rights</div><br>
+           	<input type="radio" name="question4" value=1 required>
+           	<input type="radio" name="question4" value=2>
+           	<input type="radio" name="question4" value=3>
+           	<input type="radio" name="question4" value=4>
+           	<input type="radio" name="question4" value=5>
+          </div>
+          <div class='surveyradio'>		
+           	<div class='questions' id=''>Animals have souls</div><br>
+           	<input type="radio" name="question5" value=1 required>
+           	<input type="radio" name="question5" value=2>
+           	<input type="radio" name="question5" value=3>
+           	<input type="radio" name="question5" value=4>
+           	<input type="radio" name="question5" value=5>
+          </div>
+          <div class='surveyradio'>		
+           	<div class='questions' id=''>A god should sacrifice themselves for humans</div><br>
+           	<input type="radio" name="question6" value=1 required>
+           	<input type="radio" name="question6" value=2>
+           	<input type="radio" name="question6" value=3>
+           	<input type="radio" name="question6" value=4>
+           	<input type="radio" name="question6" value=5>
+          </div>
+          <div class='surveyradio'>		
+           	<div class='questions' id=''>A god must be compassionate</div><br>
+           	<input type="radio" name="question7" value=1 required>
+           	<input type="radio" name="question7" value=2>
+           	<input type="radio" name="question7" value=3>
+           	<input type="radio" name="question7" value=4>
+           	<input type="radio" name="question7" value=5>
+          </div>
+          <div class='surveyradio'>
+           	<div class='questions' id=''>Filler Question 1</div><br>
+           	<input type="radio" name="question8" value=1 required>
+           	<input type="radio" name="question8" value=2>
+           	<input type="radio" name="question8" value=3>
+           	<input type="radio" name="question8" value=4>
+           	<input type="radio" name="question8" value=5>
+          </div>
+          <div class='surveyradio'>
+           	<div class='questions' id=''>Filler Question 2</div><br>
+           	<input type="radio" name="question9" value=1 required>
+           	<input type="radio" name="question9" value=2>
+           	<input type="radio" name="question9" value=3>
+           	<input type="radio" name="question9" value=4>
+           	<input type="radio" name="question9" value=5>
+					</div>
+          <div class='surveyradio'>
+           	<div class='questions' id=''>Filler Question 3</div><br>
+           	<input type="radio" name="question10" value=1 required>
+           	<input type="radio" name="question10" value=2>
+           	<input type="radio" name="question10" value=3>
+           	<input type="radio" name="question10" value=4>
+           	<input type="radio" name="question10" value=5>
+          </div>
+          <div class='submit'>
+						<input type='submit'>           		
+          </div>
+        </form>
+      </div>
+      <div class='col-lg-2 col-md-2 col-sm-2'></div>
+    </div>
+  </BODY>
+</HTML>
